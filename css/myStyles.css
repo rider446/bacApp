@@ -1,0 +1,48 @@
+.formLabel {
+    font-size: 20px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.questions {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(35, 36, 42, 0.70);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.js #drinkForm {
+    display:none; /* hide for JS enabled browsers */
+}
+
+#weightForm {
+    display: none;
+}
+
+#timeForm {
+    display: none;
+}
+#drinkForm {
+    /* form styles here */
+}
+
+.test {
+    height: 30px;
+}
+
+.resultMessage {
+    font-size: 2.5em;
+}
+
+.result {
+    font-size: 2em;
+}
+
+.noDrive {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
